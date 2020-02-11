@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.left {
+	margin: 0 50px;
+}
+
+.ul_1 {
+	list-style: none;
+	font-size: 26px;
+	
+	padding: 0 10px;
+	background-color: #EBEBEB;
+	border-radius: 10px;
+}
+
+
+.txt_1 {
+	width: 200px;
+	height: 75px;
+	
+}
+
+.supul {
+	margin-top: 25px;
+	
+	padding: 10px;
+	background-color: #EBEBEB;
+	border-radius: 10px;
+}
+
+
+h4 {
+	font-size: 20px;
+	font-style: italic;
+}
+
+.ul_2 {
+	list-style: none;
+}
+
+.txt_2 {
+	width: 200px;
+	height: 30px;
+
+	font-size: 20px;
+}
+
+.container {
+	padding: 20px;
+	background-color: #EBEBEB;
+}
+
+.title {
+	font-size: 26px;
+	
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	width: 280px;
+}
+
+.supcontainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 600px;
+	height: 300px;
+}
+
+.img {
+	width: 200px;
+	height: 200px;
+	
+	background-image: url('https://avatars.mds.yandex.net/get-pdb/1605014/c6845200-e0b5-41ed-8301-5350005b4e2f/s1200');
+	background-position: center;
+	background-size: contain;
+
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.ul_3 {
+	width: 350px;
+}
+
+
+.li_1 {
+	display: flex;
+	flex-wrap: wrap;
+
+	font-size: 20px;
+	list-style: none;
+
+	margin: 20px 0;
+}
+
+.txt_3 {
+	font-weight: 700;
+
+	margin: 0 20px 0 0;
+}
+
+
+.ul_4 {
+	display: flex;
+	list-style: none;
+}
+
+.li_2 {
+	width: 50px;
+	height: 25px;
+	text-align: center;
+
+	background: linear-gradient(0deg, #4F7B95, #70AACC);
+	color: white;
+	margin-right: 5px;
+}
